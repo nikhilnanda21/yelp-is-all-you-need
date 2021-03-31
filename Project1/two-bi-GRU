@@ -1,0 +1,87 @@
+est pad :  2000
+start training
+Epoch 1/25
+79/79 [==============================] - 48s 606ms/step - loss: 2.1850 - accuracy: 0.2994 - val_loss: 1.5601 - val_accuracy: 0.4140
+Epoch 2/25
+79/79 [==============================] - 56s 707ms/step - loss: 1.7046 - accuracy: 0.3880 - val_loss: 1.3997 - val_accuracy: 0.4590
+Epoch 3/25
+79/79 [==============================] - 54s 687ms/step - loss: 1.5348 - accuracy: 0.4192 - val_loss: 1.2826 - val_accuracy: 0.4750
+Epoch 4/25
+79/79 [==============================] - 51s 644ms/step - loss: 1.4007 - accuracy: 0.4408 - val_loss: 1.2222 - val_accuracy: 0.4965
+Epoch 5/25
+79/79 [==============================] - 51s 640ms/step - loss: 1.3326 - accuracy: 0.4650 - val_loss: 1.1880 - val_accuracy: 0.5030
+Epoch 6/25
+79/79 [==============================] - 52s 662ms/step - loss: 1.2660 - accuracy: 0.4796 - val_loss: 1.2424 - val_accuracy: 0.5050
+Epoch 7/25
+79/79 [==============================] - 51s 646ms/step - loss: 1.2344 - accuracy: 0.5000 - val_loss: 1.1624 - val_accuracy: 0.5075
+Epoch 8/25
+79/79 [==============================] - 51s 651ms/step - loss: 1.1996 - accuracy: 0.5058 - val_loss: 1.1074 - val_accuracy: 0.5330
+Epoch 9/25
+79/79 [==============================] - 53s 669ms/step - loss: 1.1493 - accuracy: 0.5214 - val_loss: 1.0883 - val_accuracy: 0.5355
+Epoch 10/25
+79/79 [==============================] - 50s 635ms/step - loss: 1.1250 - accuracy: 0.5336 - val_loss: 1.1147 - val_accuracy: 0.5400
+Epoch 11/25
+79/79 [==============================] - 51s 644ms/step - loss: 1.1053 - accuracy: 0.5374 - val_loss: 1.1408 - val_accuracy: 0.5295
+Epoch 12/25
+79/79 [==============================] - 53s 676ms/step - loss: 1.0853 - accuracy: 0.5524 - val_loss: 1.2225 - val_accuracy: 0.5225
+Epoch 13/25
+79/79 [==============================] - 53s 673ms/step - loss: 1.0758 - accuracy: 0.5462 - val_loss: 1.0941 - val_accuracy: 0.5470
+Epoch 14/25
+79/79 [==============================] - 54s 687ms/step - loss: 1.0451 - accuracy: 0.5676 - val_loss: 1.1010 - val_accuracy: 0.5435
+Epoch 15/25
+79/79 [==============================] - 56s 710ms/step - loss: 1.0391 - accuracy: 0.5638 - val_loss: 1.0796 - val_accuracy: 0.5435
+Epoch 16/25
+79/79 [==============================] - 55s 697ms/step - loss: 1.0162 - accuracy: 0.5800 - val_loss: 1.1583 - val_accuracy: 0.5295
+Epoch 17/25
+79/79 [==============================] - 52s 664ms/step - loss: 1.0085 - accuracy: 0.5828 - val_loss: 1.0731 - val_accuracy: 0.5635
+Epoch 18/25
+79/79 [==============================] - 58s 731ms/step - loss: 0.9838 - accuracy: 0.5932 - val_loss: 1.0795 - val_accuracy: 0.5465
+Epoch 19/25
+79/79 [==============================] - 62s 788ms/step - loss: 0.9864 - accuracy: 0.5834 - val_loss: 1.0781 - val_accuracy: 0.5630
+Epoch 20/25
+79/79 [==============================] - 63s 803ms/step - loss: 0.9553 - accuracy: 0.6010 - val_loss: 1.1058 - val_accuracy: 0.5430
+Epoch 21/25
+79/79 [==============================] - 60s 760ms/step - loss: 0.9362 - accuracy: 0.6072 - val_loss: 1.0479 - val_accuracy: 0.5695
+Epoch 22/25
+79/79 [==============================] - 56s 704ms/step - loss: 0.9225 - accuracy: 0.6180 - val_loss: 1.1561 - val_accuracy: 0.5415
+Epoch 23/25
+79/79 [==============================] - 55s 693ms/step - loss: 0.9284 - accuracy: 0.6196 - val_loss: 1.2823 - val_accuracy: 0.5155
+Epoch 24/25
+79/79 [==============================] - 55s 702ms/step - loss: 0.9058 - accuracy: 0.6186 - val_loss: 1.0898 - val_accuracy: 0.5560
+Epoch 25/25
+79/79 [==============================] - 54s 679ms/step - loss: 0.8774 - accuracy: 0.6334 - val_loss: 1.1029 - val_accuracy: 0.5480
+Model: "sequential_66"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_66 (Embedding)     (None, 443, 32)           722400    
+_________________________________________________________________
+bidirectional_8 (Bidirection (None, 443, 128)          37632     
+_________________________________________________________________
+bidirectional_9 (Bidirection (None, 443, 64)           31104     
+_________________________________________________________________
+conv1d_66 (Conv1D)           (None, 441, 64)           12352     
+_________________________________________________________________
+max_pooling1d_63 (MaxPooling (None, 55, 64)            0         
+_________________________________________________________________
+bidirectional_10 (Bidirectio (None, 128)               49920     
+_________________________________________________________________
+batch_normalization_107 (Bat (None, 128)               512       
+_________________________________________________________________
+dense_124 (Dense)            (None, 64)                8256      
+_________________________________________________________________
+batch_normalization_108 (Bat (None, 64)                256       
+_________________________________________________________________
+dropout_39 (Dropout)         (None, 64)                0         
+_________________________________________________________________
+dense_125 (Dense)            (None, 6)                 390       
+=================================================================
+Total params: 862,822
+Trainable params: 140,038
+Non-trainable params: 722,784
+_________________________________________________________________
+None
+<tensorflow.python.keras.callbacks.History object at 0x17db7e390>
+24/24 [==============================] - 3s 130ms/step - loss: 1.0967 - accuracy: 0.5493
+score: 1.10
+acc: 0.55
