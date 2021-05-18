@@ -1,4 +1,4 @@
-20491384.csv - Test Set predictions
+pre.csv - Test Set predictions
 
 Project_3_Rating_Prediction_Wide_and_Deep.ipynb - Code for Project 3 (please run on colab :))
 
