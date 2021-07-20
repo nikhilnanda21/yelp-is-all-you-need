@@ -18,7 +18,7 @@ This project aims to solve the link prediction problem on a subset of the Yelp d
 This project aims to solve the rating prediction problem on a subset of the Yelp dataset. The data consists of users and businesses, with a rating that corresponds to the rating a user has given the respective business. In addition, various individual user attributes as well as business attributes are available to supplement these ratings. The Wide and Deep Model (WDL) has been used since it performed better than the Neural Collaborative Filtering Model (NCF) during our analysis, with a validation RMSE (Root Mean Squared Error) of 0.9996 from the former compared to RMSE of 1.0533 from the latter model.
 
 - NCF | [model](https://github.com/nikhilnanda21/yelp-is-all-you-need/blob/master/Project3/35/Project_3_Rating_Prediction_NCF.ipynb) | [motivation](https://arxiv.org/abs/1708.05031)
-- Wide and Deep Learning | [model](https://github.com/nikhilnanda21/yelp-is-all-you-need/blob/master/Project3/35/Project_3_Rating_Prediction_Wide_and_Deep.ipynb) | [motivation](https://arxiv.org/abs/1606.07792)
+- WDL | [model](https://github.com/nikhilnanda21/yelp-is-all-you-need/blob/master/Project3/35/Project_3_Rating_Prediction_Wide_and_Deep.ipynb) | [motivation](https://arxiv.org/abs/1606.07792)
 
 ## Usage
 All notebooks can be downloaded and run on [Google Colab](https://colab.research.google.com/)
