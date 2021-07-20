@@ -5,7 +5,7 @@ Leveraged a subset of the Yelp dataset to devise Deep Learning Algorithms for Se
 ### [Project 1: Sentiment Classification](https://github.com/nikhilnanda21/yelp-is-all-you-need/blob/master/Project1/35/RMBI4310_COMP4332%20Project%201%20Report.pdf)
 This project aims to solve the multiclass sentiment classification problem on a subset of the Yelp dataset. The data consists of reviews as well as attributes such as ‘funny’, ‘cool’ and useful and the stars for each review that range from 1-5 which serve as the labels. Two different approaches for models are compared - 1) Heavyweight feature engineering-based ensemble model and 2) Contextualized word representation (BERT) based model.
 
-- [Ensemble model](https://github.com/nikhilnanda21/yelp-is-all-you-need/blob/master/Project1/35/Ensemble%20Model%2C%20TF-IDF%20%2B%20Glove%20%2B%20CNN%20%2B%20RNN.ipynb)
+- Ensemble | [model](https://github.com/nikhilnanda21/yelp-is-all-you-need/blob/master/Project1/35/Ensemble%20Model%2C%20TF-IDF%20%2B%20Glove%20%2B%20CNN%20%2B%20RNN.ipynb) | [motivation](https://www.kaggle.com/ajithvajrala/word-embeddings-with-tfidf-ensemble)
 - BERT | [model](https://github.com/nikhilnanda21/yelp-is-all-you-need/blob/master/Project1/35/4332_P1_BERT_Finalised_Model_%2B_Test_set_predictions.ipynb) | [motivation](https://arxiv.org/abs/1810.04805)
 
 ### [Project 2: Link Prediction](https://github.com/nikhilnanda21/yelp-is-all-you-need/blob/master/Project2/35/RMBI4310_COMP4332%20Project%202%20Report.pdf)
