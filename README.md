@@ -1,6 +1,6 @@
 # yelp-is-all-you-need
 ## Big Data Mining and Management Projects
-Leveraged a subset of the Yelp dataset to devise Deep Learning Algorithms for Sentiment Classification and Link Prediction and to build a recommender system.
+Leveraged a subset of the Yelp dataset to devise Deep Learning Algorithms for Sentiment Classification, Link Prediction and to build a recommender system.
 
 ### [Project 1: Sentiment Classification](https://github.com/nikhilnanda21/yelp-is-all-you-need/blob/master/Project1/35/RMBI4310_COMP4332%20Project%201%20Report.pdf)
 - [Ensemble model](https://github.com/nikhilnanda21/yelp-is-all-you-need/blob/master/Project1/35/Ensemble%20Model%2C%20TF-IDF%20%2B%20Glove%20%2B%20CNN%20%2B%20RNN.ipynb)
